@@ -1,0 +1,13 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin resetBody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$Primary-color:#000;

@@ -1,0 +1,57 @@
+.part2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // padding-bottom: 5rem;
+}
+
+h2 {
+  color: white;
+  // padding: 2rem;
+  // padding-bottom: 5rem;
+}
+
+.part2__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10rem 0;
+
+  @media screen and (max-width: 800px) {
+    padding: 2rem 0;
+  }
+}
+
+figure {
+  margin: 0.5rem 1rem;
+}
+
+figcaption {
+  color: white;
+}
+
+.skill {
+  transition: 0.3s ease-in;
+}
+
+.skill:hover {
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+
+.react-icon {
+  animation: rotationIcon 20s linear infinite;
+}
+
+@keyframes rotationIcon {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

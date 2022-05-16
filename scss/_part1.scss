@@ -1,0 +1,80 @@
+.part0 {
+  background-image: url(../img/computer7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 60vh;
+  width: 100%;
+  color: white;
+
+  @media (max-width: 800px) {
+    // background-position: 30% center;
+    height: 0;
+    background-image: none;
+  }
+}
+
+.part1 {
+  background-color: black;
+  color: white;
+
+  .part1__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+
+    @media (max-width: 768px) {
+      padding: 0 0 10rem 0;
+    }
+
+    .part1__box--text {
+      font-size: clamp(0.5rem, 1.5rem, 1.6rem);
+      // font-size: 1.5rem;
+      width: 620px;
+      line-height: 160%;
+
+      p {
+        margin-bottom: 1.2rem;
+      }
+      strong {
+        color: red;
+      }
+
+      @media (max-width: 800px) {
+        font-size: 1.2rem;
+        text-align: center;
+        width: auto;
+        // line-height: 150%;
+        padding: 0 1.2rem;
+      }
+    }
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+  .SVG__media--1 {
+    width: 500px;
+
+    @media (max-width: 800px) {
+      width: auto;
+      z-index: 1000;
+    }
+  }
+
+  .part1-img {
+    background-image: url(../img/chelmikowski.webp);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    // border-radius: 50px;
+    // background-position: 0 -55px;
+    background-repeat: no-repeat;
+
+    @media (max-width: 800px) {
+      width: 100vw;
+    }
+  }
+}
