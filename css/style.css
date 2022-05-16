@@ -556,7 +556,9 @@ body {
 
 @media (max-width: 800px) {
   .part1 .part1-img {
+    background-position: center;
     width: 100vw;
+    background-size: contain;
   }
 }
 

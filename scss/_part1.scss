@@ -74,7 +74,13 @@
     background-repeat: no-repeat;
 
     @media (max-width: 800px) {
+      // display: flex;
+      // align-items: center;
+      background-position:center;
       width: 100vw;
+      background-size: contain;
+
+      // width: auto;
     }
   }
 }
