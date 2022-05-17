@@ -291,7 +291,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: 'Lato', sans-serif;
 }
 
